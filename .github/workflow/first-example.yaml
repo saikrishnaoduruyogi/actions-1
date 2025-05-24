@@ -1,12 +1,10 @@
 name: My First WorkFlow
-
 on: push
-
 jobs:
     first_job:
-       runs-on: ubuntu-latest
-       steps:
-        - name: Welcome Message
-          run: echo "This is my first action"
-        - name: List the Files
-          run: ls
+      runs-on: ubuntu-latest
+      steps:
+      - name: Welcome Message
+        run: echo "This is my first action"
+      - name: List the Files
+        run: ls
